@@ -1,6 +1,6 @@
 # WebService2
 
-User email and facial recognition validation service built with Sinatra.
+User email and facial recognition validation service built with [Sinatra](http://www.sinatrarb.com/).
 
 ## Development
 
@@ -35,3 +35,13 @@ gem install rubocop
 # Run rubocop
 rubocop .
 ```
+
+Run unit tests from [`test`](./test) with:
+
+```sh
+rake test
+```
+
+> On rake-test warnings, see: https://github.com/brynary/rack-test/pull/116
+
+> In case of gem conflicts, see: http://stackoverflow.com/a/38760385/3416691

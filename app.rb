@@ -26,7 +26,7 @@ class App < Sinatra::Base
     "This is a private service, so you shouldn't be able to see this."
   end
 
-  get '/rest/verify_user/:email?' do |email|
+  post '/rest/verify_user/:email?' do |email|
     content_type :json
     Responses.unauthorized if email.nil?
 
