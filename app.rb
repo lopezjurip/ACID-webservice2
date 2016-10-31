@@ -14,8 +14,11 @@ end
 
 # WebService2 as a modular Sinatra app for testing proposes
 class App < Sinatra::Base
-  # Set webserver
-  configure { set :server, :puma }
+  configure do
+    set :bind, '0.0.0.0'
+    set :port, 3000
+    set :server, :puma
+  end
 
   # Configure logging
   configure :production, :development do

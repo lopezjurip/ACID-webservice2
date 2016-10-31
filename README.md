@@ -18,7 +18,7 @@ Install dependencies:
 bundle install
 ```
 
-Run web app at [`http://localhost:4567`](http://localhost:4567):
+Run web app at [`http://localhost:3000`](http://localhost:3000):
 
 ```sh
 ruby main.rb
