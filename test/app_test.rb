@@ -50,5 +50,8 @@ class AppTest < Minitest::Test
   def test_empty_post
     post '/rest/verify_user/'
     assert_equal 401, last_response.status
+
+    post '/rest/verify_user'
+    assert_equal 401, last_response.status
   end
 end

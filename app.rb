@@ -29,9 +29,10 @@ class App < Sinatra::Base
     "This is a private service, so you shouldn't be able to see this."
   end
 
-  post '/rest/verify_user/:email?' do |email|
+  # Match empty :email, and missing trailing slash paths
+  post '/rest/verify_user/?:email?' do |email|
     content_type :json
-    Responses.unauthorized if email.nil?
+    return Responses.unauthorized if email.nil?
 
     begin
       _ = JSON.parse(request.body.read)
