@@ -48,3 +48,7 @@ rake test
 > On rake-test warnings, see: https://github.com/brynary/rack-test/pull/116
 
 > In case of gem conflicts, see: http://stackoverflow.com/a/38760385/3416691
+
+## Deploy
+
+See: [mrpatiwi/ACID-deploy](https://github.com/mrpatiwi/ACID-deploy).
