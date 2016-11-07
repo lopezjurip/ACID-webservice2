@@ -11,7 +11,8 @@ User email and facial recognition validation service built with [Sinatra](http:/
 Clone this repository:
 
 ```sh
-git clone ...
+git clone https://github.com/mrpatiwi/ACID-webservice2.git
+cd ACID-webservice2
 ```
 
 Install dependencies:
