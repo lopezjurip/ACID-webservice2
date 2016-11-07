@@ -1,5 +1,7 @@
 # WebService2
 
+[![Build Status](https://travis-ci.org/mrpatiwi/ACID-webservice2.svg)](https://travis-ci.org/mrpatiwi/ACID-webservice2)
+
 User email and facial recognition validation service built with [Sinatra](http://www.sinatrarb.com/).
 
 ## Development
